@@ -1,0 +1,64 @@
+/* body {  #1abc9c areaial */
+/* navbar - #333 */
+/* navbar:hover- #ddd */
+/* side - #f1f1f1 */
+/* fakeimage - #aaa */
+/* footer - #ddd */
+/* MQ - 700px */
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+div:has(h4){
+    height: 70px 
+}
+div:has(h4) h4 {
+   line-height: 60; 
+}
+
+.header {
+    padding: 60px;
+    color: white;
+    background-color: #1abc9c;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    background-color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar a {
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: white;
+    background-color: #ddd;
+}
+.row {
+    display: flex;
+}
+.row .side {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+.row .main {
+    padding: 20px;
+}
+.row .fakeimg {
+padding: 20px;
+background-color: #ddd;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #ddd;
+}

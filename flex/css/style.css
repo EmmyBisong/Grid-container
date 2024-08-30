@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.item {
+    z-index: 9;
+    color: #fff;
+    position: absolute;
+    font-family: cursive;
+}
+
+.top-left {
+    top: 20px;
+    left: 20px;
+}
+
+.top-right {
+    top: 20px;
+    right: 20px;
+}
+
+.centered {
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.bottom-left {
+    left: 20px;
+    bottom: 20px;
+}
+.bottom-right {
+    right: 20px;
+    bottom: 20px;
+}
